@@ -1,0 +1,1338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A68867301CCF4129007FAFEA /* ProgramModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A688672D1CCF4129007FAFEA /* ProgramModel.m */; };
+		A68867311CCF4129007FAFEA /* IptvCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A688672E1CCF4129007FAFEA /* IptvCategoryModel.m */; };
+		A68867331CCF48E9007FAFEA /* OndemandCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68867321CCF48E9007FAFEA /* OndemandCollectionCell.xib */; };
+		A68867361CCF539D007FAFEA /* ProgramDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A68867351CCF539D007FAFEA /* ProgramDetailViewController.m */; };
+		A68867381CCF68F6007FAFEA /* mEpisodeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68867371CCF68F6007FAFEA /* mEpisodeCollectionViewCell.xib */; };
+		A688673B1CCF6FB5007FAFEA /* RelatedProgramModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A68867391CCF6FB5007FAFEA /* RelatedProgramModel.m */; };
+		A688673E1CD05604007FAFEA /* MovieInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A688673D1CD05604007FAFEA /* MovieInfoView.m */; };
+		A68867411CD0562D007FAFEA /* SeriesInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A68867401CD0562D007FAFEA /* SeriesInfoView.m */; };
+		A68867441CD05646007FAFEA /* ThreeCategateInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A68867431CD05646007FAFEA /* ThreeCategateInfoView.m */; };
+		A68867491CD05E0D007FAFEA /* ProgramInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A68867451CD05E0D007FAFEA /* ProgramInfo.m */; };
+		A688674A1CD05E0D007FAFEA /* SeriesInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A68867471CD05E0D007FAFEA /* SeriesInfoModel.m */; };
+		A68867501CD0B59F007FAFEA /* SeriesVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A688674E1CD0B59F007FAFEA /* SeriesVideoModel.m */; };
+		A68867561CD1BF2A007FAFEA /* CategateDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A68867551CD1BF2A007FAFEA /* CategateDetailViewController.m */; };
+		A68867581CD1E121007FAFEA /* ThreeCategateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68867571CD1E121007FAFEA /* ThreeCategateTableViewCell.xib */; };
+		A688675B1CD1E70F007FAFEA /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A688675A1CD1E70F007FAFEA /* SearchViewController.m */; };
+		A688675E1CD1FEFE007FAFEA /* AppointmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A688675D1CD1FEFE007FAFEA /* AppointmentViewController.m */; };
+		A68867611CD205D3007FAFEA /* EditPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A68867601CD205D3007FAFEA /* EditPwdViewController.m */; };
+		A68867641CD20BAB007FAFEA /* BindingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A68867631CD20BAB007FAFEA /* BindingViewController.m */; };
+		A68867671CD2F593007FAFEA /* MainSupperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A68867661CD2F593007FAFEA /* MainSupperViewController.m */; };
+		A688676A1CD8A063007FAFEA /* NoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A68867691CD8A063007FAFEA /* NoticeView.m */; };
+		A6C196981CC9F4DD00A22AC2 /* BackWatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C196971CC9F4DD00A22AC2 /* BackWatchView.m */; };
+		A6FAB22A1CC5D03100617666 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2291CC5D03100617666 /* main.m */; };
+		A6FAB22D1CC5D03100617666 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB22C1CC5D03100617666 /* AppDelegate.m */; };
+		A6FAB2331CC5D03100617666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FAB2311CC5D03100617666 /* Main.storyboard */; };
+		A6FAB2361CC5D03100617666 /* GBoxTV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2341CC5D03100617666 /* GBoxTV.xcdatamodeld */; };
+		A6FAB2381CC5D03100617666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6FAB2371CC5D03100617666 /* Assets.xcassets */; };
+		A6FAB23B1CC5D03100617666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FAB2391CC5D03100617666 /* LaunchScreen.storyboard */; };
+		A6FAB2461CC5D03100617666 /* GBoxTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2451CC5D03100617666 /* GBoxTVTests.m */; };
+		A6FAB2511CC5D03100617666 /* GBoxTVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2501CC5D03100617666 /* GBoxTVUITests.m */; };
+		A6FAB2A71CC5D38200617666 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2A61CC5D38200617666 /* LoginViewController.m */; };
+		A6FAB2AA1CC5D3C900617666 /* PhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2A91CC5D3C900617666 /* PhoneViewController.m */; };
+		A6FAB2AD1CC5D3D900617666 /* VerifyCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2AC1CC5D3D900617666 /* VerifyCodeViewController.m */; };
+		A6FAB2B01CC5D3E500617666 /* PwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2AF1CC5D3E500617666 /* PwdViewController.m */; };
+		A6FAB2B31CC5D48D00617666 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2B21CC5D48D00617666 /* MainViewController.m */; };
+		A6FAB2B71CC5FFAD00617666 /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2B61CC5FFAD00617666 /* UserInfoModel.m */; };
+		A6FAB2BD1CC607DE00617666 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6FAB2BA1CC607DE00617666 /* SVProgressHUD.bundle */; };
+		A6FAB2BE1CC607DE00617666 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2BC1CC607DE00617666 /* SVProgressHUD.m */; };
+		A6FAB2D81CC60A3200617666 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2C61CC60A3200617666 /* AFHTTPRequestOperation.m */; };
+		A6FAB2D91CC60A3300617666 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2C81CC60A3200617666 /* AFHTTPRequestOperationManager.m */; };
+		A6FAB2DA1CC60A3300617666 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2CA1CC60A3200617666 /* AFHTTPSessionManager.m */; };
+		A6FAB2DB1CC60A3300617666 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2CD1CC60A3200617666 /* AFNetworkReachabilityManager.m */; };
+		A6FAB2DC1CC60A3300617666 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2CF1CC60A3200617666 /* AFSecurityPolicy.m */; };
+		A6FAB2DD1CC60A3300617666 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2D11CC60A3200617666 /* AFURLConnectionOperation.m */; };
+		A6FAB2DE1CC60A3300617666 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2D31CC60A3200617666 /* AFURLRequestSerialization.m */; };
+		A6FAB2DF1CC60A3300617666 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2D51CC60A3200617666 /* AFURLResponseSerialization.m */; };
+		A6FAB2E01CC60A3300617666 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2D71CC60A3200617666 /* AFURLSessionManager.m */; };
+		A6FAB2E31CC60B0E00617666 /* CommonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2E21CC60B0E00617666 /* CommonHelper.m */; };
+		A6FAB2EA1CC60C9300617666 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2E61CC60C9300617666 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A6FAB2EB1CC60C9300617666 /* NSString+ThreeDES.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2E91CC60C9300617666 /* NSString+ThreeDES.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A6FAB2EE1CC60CD800617666 /* CommonBaseData.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2ED1CC60CD800617666 /* CommonBaseData.m */; };
+		A6FAB2F11CC60EEB00617666 /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2F01CC60EEB00617666 /* LiveViewController.m */; };
+		A6FAB2F41CC60F1D00617666 /* HistoricalPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2F31CC60F1D00617666 /* HistoricalPlayViewController.m */; };
+		A6FAB2F71CC60F2D00617666 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2F61CC60F2D00617666 /* MyViewController.m */; };
+		A6FAB2FA1CC60F4D00617666 /* OndemandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2F91CC60F4D00617666 /* OndemandViewController.m */; };
+		A6FAB2FD1CC6255800617666 /* CommonRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2FC1CC6255800617666 /* CommonRootViewController.m */; };
+		A6FAB3011CC727D400617666 /* LiveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB2FF1CC727D400617666 /* LiveTableViewCell.m */; };
+		A6FAB3021CC727D400617666 /* LiveTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FAB3001CC727D400617666 /* LiveTableViewCell.xib */; };
+		A6FAB3081CC72A7100617666 /* IptvScheduleInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB3041CC72A7100617666 /* IptvScheduleInfoModel.m */; };
+		A6FAB3091CC72A7100617666 /* IptvChannelMode.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB3061CC72A7100617666 /* IptvChannelMode.m */; };
+		A6FAB30C1CC72A9700617666 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB30B1CC72A9700617666 /* BaseModel.m */; };
+		A6FAB3101CC7541200617666 /* LiveTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB30F1CC7541200617666 /* LiveTitleView.m */; };
+		A6FAB3131CC776AF00617666 /* LiveDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB3121CC776AF00617666 /* LiveDetailViewController.m */; };
+		A6FAB3161CC7785000617666 /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB3141CC7785000617666 /* PlayerView.m */; };
+		A6FAB3341CC7787900617666 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB31D1CC7787900617666 /* Utilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A6FAB3351CC7787900617666 /* VAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB31F1CC7787900617666 /* VAppInfo.m */; };
+		A6FAB3361CC7787900617666 /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB3211CC7787900617666 /* CHANGELOG.md */; };
+		A6FAB3371CC7787900617666 /* libffmpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FAB32C1CC7787900617666 /* libffmpeg.a */; };
+		A6FAB3381CC7787900617666 /* libopenssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FAB32D1CC7787900617666 /* libopenssl.a */; };
+		A6FAB3391CC7787900617666 /* libVitamio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FAB32E1CC7787900617666 /* libVitamio.a */; };
+		A6FAB33A1CC7787900617666 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A6FAB32F1CC7787900617666 /* LICENSE */; };
+		A6FAB33B1CC7787900617666 /* VSegmentSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAB3311CC7787900617666 /* VSegmentSlider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A6FAB33D1CC779B400617666 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FAB33C1CC779B400617666 /* CoreMedia.framework */; };
+		A6FAB33F1CC779C700617666 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FAB33E1CC779C700617666 /* libiconv.tbd */; };
+		A6FAB3411CC779E800617666 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FAB3401CC779E800617666 /* libbz2.tbd */; };
+		A6FAB3431CC77A0A00617666 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FAB3421CC77A0A00617666 /* libz.tbd */; };
+		A6FAB3451CC77A3300617666 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FAB3441CC77A3300617666 /* libstdc++.tbd */; };
+		A6FAB3471CC77A5400617666 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FAB3461CC77A5400617666 /* CoreVideo.framework */; };
+		A6FAB34A1CC8860200617666 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FAB3491CC8860200617666 /* AudioToolbox.framework */; };
+		A6FAB34C1CC8860900617666 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FAB34B1CC8860900617666 /* VideoToolbox.framework */; };
+		A6FAB34E1CC89EC500617666 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FAB34D1CC89EC500617666 /* CoreGraphics.framework */; };
+		A6FAB3501CC89ED700617666 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FAB34F1CC89ED700617666 /* MediaPlayer.framework */; };
+		A6FAB3521CC89EE100617666 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FAB3511CC89EE100617666 /* OpenGLES.framework */; };
+		A6FAB3541CC89FB200617666 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FAB3531CC89FB200617666 /* QuartzCore.framework */; };
+		A6FAB3561CC89FC600617666 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FAB3551CC89FC600617666 /* AVFoundation.framework */; };
+		A6FF36691CDB2D5900D46280 /* RemoteControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FF36681CDB2D5900D46280 /* RemoteControlViewController.m */; };
+		A6FF366C1CE179E300D46280 /* LiveSupperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FF366B1CE179E300D46280 /* LiveSupperViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6FAB2421CC5D03100617666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6FAB21D1CC5D03100617666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6FAB2241CC5D03100617666;
+			remoteInfo = GBoxTV;
+		};
+		A6FAB24D1CC5D03100617666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6FAB21D1CC5D03100617666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6FAB2241CC5D03100617666;
+			remoteInfo = GBoxTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A688672C1CCF4129007FAFEA /* ProgramModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgramModel.h; sourceTree = "<group>"; };
+		A688672D1CCF4129007FAFEA /* ProgramModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgramModel.m; sourceTree = "<group>"; };
+		A688672E1CCF4129007FAFEA /* IptvCategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IptvCategoryModel.m; sourceTree = "<group>"; };
+		A688672F1CCF4129007FAFEA /* IptvCategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IptvCategoryModel.h; sourceTree = "<group>"; };
+		A68867321CCF48E9007FAFEA /* OndemandCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OndemandCollectionCell.xib; sourceTree = "<group>"; };
+		A68867341CCF539D007FAFEA /* ProgramDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgramDetailViewController.h; sourceTree = "<group>"; };
+		A68867351CCF539D007FAFEA /* ProgramDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgramDetailViewController.m; sourceTree = "<group>"; };
+		A68867371CCF68F6007FAFEA /* mEpisodeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mEpisodeCollectionViewCell.xib; sourceTree = "<group>"; };
+		A68867391CCF6FB5007FAFEA /* RelatedProgramModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelatedProgramModel.m; sourceTree = "<group>"; };
+		A688673A1CCF6FB5007FAFEA /* RelatedProgramModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelatedProgramModel.h; sourceTree = "<group>"; };
+		A688673C1CD05604007FAFEA /* MovieInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieInfoView.h; sourceTree = "<group>"; };
+		A688673D1CD05604007FAFEA /* MovieInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieInfoView.m; sourceTree = "<group>"; };
+		A688673F1CD0562D007FAFEA /* SeriesInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeriesInfoView.h; sourceTree = "<group>"; };
+		A68867401CD0562D007FAFEA /* SeriesInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeriesInfoView.m; sourceTree = "<group>"; };
+		A68867421CD05646007FAFEA /* ThreeCategateInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeCategateInfoView.h; sourceTree = "<group>"; };
+		A68867431CD05646007FAFEA /* ThreeCategateInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeCategateInfoView.m; sourceTree = "<group>"; };
+		A68867451CD05E0D007FAFEA /* ProgramInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgramInfo.m; sourceTree = "<group>"; };
+		A68867461CD05E0D007FAFEA /* ProgramInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgramInfo.h; sourceTree = "<group>"; };
+		A68867471CD05E0D007FAFEA /* SeriesInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeriesInfoModel.m; sourceTree = "<group>"; };
+		A68867481CD05E0D007FAFEA /* SeriesInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeriesInfoModel.h; sourceTree = "<group>"; };
+		A688674E1CD0B59F007FAFEA /* SeriesVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeriesVideoModel.m; sourceTree = "<group>"; };
+		A688674F1CD0B59F007FAFEA /* SeriesVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeriesVideoModel.h; sourceTree = "<group>"; };
+		A68867541CD1BF2A007FAFEA /* CategateDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategateDetailViewController.h; sourceTree = "<group>"; };
+		A68867551CD1BF2A007FAFEA /* CategateDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategateDetailViewController.m; sourceTree = "<group>"; };
+		A68867571CD1E121007FAFEA /* ThreeCategateTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeCategateTableViewCell.xib; sourceTree = "<group>"; };
+		A68867591CD1E70F007FAFEA /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		A688675A1CD1E70F007FAFEA /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		A688675C1CD1FEFE007FAFEA /* AppointmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentViewController.h; sourceTree = "<group>"; };
+		A688675D1CD1FEFE007FAFEA /* AppointmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointmentViewController.m; sourceTree = "<group>"; };
+		A688675F1CD205D3007FAFEA /* EditPwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditPwdViewController.h; sourceTree = "<group>"; };
+		A68867601CD205D3007FAFEA /* EditPwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPwdViewController.m; sourceTree = "<group>"; };
+		A68867621CD20BAB007FAFEA /* BindingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindingViewController.h; sourceTree = "<group>"; };
+		A68867631CD20BAB007FAFEA /* BindingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BindingViewController.m; sourceTree = "<group>"; };
+		A68867651CD2F593007FAFEA /* MainSupperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSupperViewController.h; sourceTree = "<group>"; };
+		A68867661CD2F593007FAFEA /* MainSupperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSupperViewController.m; sourceTree = "<group>"; };
+		A68867681CD8A063007FAFEA /* NoticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticeView.h; sourceTree = "<group>"; };
+		A68867691CD8A063007FAFEA /* NoticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticeView.m; sourceTree = "<group>"; };
+		A6C196961CC9F4DD00A22AC2 /* BackWatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackWatchView.h; sourceTree = "<group>"; };
+		A6C196971CC9F4DD00A22AC2 /* BackWatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackWatchView.m; sourceTree = "<group>"; };
+		A6FAB2251CC5D03100617666 /* GBoxTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBoxTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FAB2291CC5D03100617666 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6FAB22B1CC5D03100617666 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6FAB22C1CC5D03100617666 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6FAB2321CC5D03100617666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6FAB2351CC5D03100617666 /* GBoxTV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GBoxTV.xcdatamodel; sourceTree = "<group>"; };
+		A6FAB2371CC5D03100617666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6FAB23A1CC5D03100617666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6FAB23C1CC5D03100617666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6FAB2411CC5D03100617666 /* GBoxTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBoxTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FAB2451CC5D03100617666 /* GBoxTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBoxTVTests.m; sourceTree = "<group>"; };
+		A6FAB2471CC5D03100617666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6FAB24C1CC5D03100617666 /* GBoxTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBoxTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FAB2501CC5D03100617666 /* GBoxTVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBoxTVUITests.m; sourceTree = "<group>"; };
+		A6FAB2521CC5D03100617666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6FAB2A51CC5D38200617666 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A6FAB2A61CC5D38200617666 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A6FAB2A81CC5D3C900617666 /* PhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneViewController.h; sourceTree = "<group>"; };
+		A6FAB2A91CC5D3C900617666 /* PhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneViewController.m; sourceTree = "<group>"; };
+		A6FAB2AB1CC5D3D900617666 /* VerifyCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyCodeViewController.h; sourceTree = "<group>"; };
+		A6FAB2AC1CC5D3D900617666 /* VerifyCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyCodeViewController.m; sourceTree = "<group>"; };
+		A6FAB2AE1CC5D3E500617666 /* PwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PwdViewController.h; sourceTree = "<group>"; };
+		A6FAB2AF1CC5D3E500617666 /* PwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PwdViewController.m; sourceTree = "<group>"; };
+		A6FAB2B11CC5D48D00617666 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A6FAB2B21CC5D48D00617666 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A6FAB2B41CC5FE2400617666 /* GBoxTVHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBoxTVHeader.pch; sourceTree = "<group>"; };
+		A6FAB2B51CC5FFAD00617666 /* UserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoModel.h; sourceTree = "<group>"; };
+		A6FAB2B61CC5FFAD00617666 /* UserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
+		A6FAB2BA1CC607DE00617666 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		A6FAB2BB1CC607DE00617666 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		A6FAB2BC1CC607DE00617666 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		A6FAB2C31CC6095400617666 /* enmuHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enmuHelper.h; sourceTree = "<group>"; };
+		A6FAB2C51CC60A3200617666 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		A6FAB2C61CC60A3200617666 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		A6FAB2C71CC60A3200617666 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		A6FAB2C81CC60A3200617666 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		A6FAB2C91CC60A3200617666 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		A6FAB2CA1CC60A3200617666 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		A6FAB2CB1CC60A3200617666 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		A6FAB2CC1CC60A3200617666 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		A6FAB2CD1CC60A3200617666 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		A6FAB2CE1CC60A3200617666 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		A6FAB2CF1CC60A3200617666 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		A6FAB2D01CC60A3200617666 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		A6FAB2D11CC60A3200617666 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		A6FAB2D21CC60A3200617666 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		A6FAB2D31CC60A3200617666 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		A6FAB2D41CC60A3200617666 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		A6FAB2D51CC60A3200617666 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		A6FAB2D61CC60A3200617666 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		A6FAB2D71CC60A3200617666 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		A6FAB2E11CC60B0E00617666 /* CommonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHelper.h; sourceTree = "<group>"; };
+		A6FAB2E21CC60B0E00617666 /* CommonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonHelper.m; sourceTree = "<group>"; };
+		A6FAB2E51CC60C9300617666 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		A6FAB2E61CC60C9300617666 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		A6FAB2E71CC60C9300617666 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		A6FAB2E81CC60C9300617666 /* NSString+ThreeDES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ThreeDES.h"; sourceTree = "<group>"; };
+		A6FAB2E91CC60C9300617666 /* NSString+ThreeDES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ThreeDES.m"; sourceTree = "<group>"; };
+		A6FAB2EC1CC60CD800617666 /* CommonBaseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonBaseData.h; sourceTree = "<group>"; };
+		A6FAB2ED1CC60CD800617666 /* CommonBaseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonBaseData.m; sourceTree = "<group>"; };
+		A6FAB2EF1CC60EEB00617666 /* LiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveViewController.h; sourceTree = "<group>"; };
+		A6FAB2F01CC60EEB00617666 /* LiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveViewController.m; sourceTree = "<group>"; };
+		A6FAB2F21CC60F1D00617666 /* HistoricalPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoricalPlayViewController.h; sourceTree = "<group>"; };
+		A6FAB2F31CC60F1D00617666 /* HistoricalPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoricalPlayViewController.m; sourceTree = "<group>"; };
+		A6FAB2F51CC60F2D00617666 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		A6FAB2F61CC60F2D00617666 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		A6FAB2F81CC60F4D00617666 /* OndemandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OndemandViewController.h; sourceTree = "<group>"; };
+		A6FAB2F91CC60F4D00617666 /* OndemandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OndemandViewController.m; sourceTree = "<group>"; };
+		A6FAB2FB1CC6255800617666 /* CommonRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonRootViewController.h; sourceTree = "<group>"; };
+		A6FAB2FC1CC6255800617666 /* CommonRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonRootViewController.m; sourceTree = "<group>"; };
+		A6FAB2FE1CC727D400617666 /* LiveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveTableViewCell.h; sourceTree = "<group>"; };
+		A6FAB2FF1CC727D400617666 /* LiveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveTableViewCell.m; sourceTree = "<group>"; };
+		A6FAB3001CC727D400617666 /* LiveTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveTableViewCell.xib; sourceTree = "<group>"; };
+		A6FAB3041CC72A7100617666 /* IptvScheduleInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IptvScheduleInfoModel.m; sourceTree = "<group>"; };
+		A6FAB3051CC72A7100617666 /* IptvScheduleInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IptvScheduleInfoModel.h; sourceTree = "<group>"; };
+		A6FAB3061CC72A7100617666 /* IptvChannelMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IptvChannelMode.m; sourceTree = "<group>"; };
+		A6FAB3071CC72A7100617666 /* IptvChannelMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IptvChannelMode.h; sourceTree = "<group>"; };
+		A6FAB30A1CC72A9700617666 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		A6FAB30B1CC72A9700617666 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		A6FAB30E1CC7541200617666 /* LiveTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveTitleView.h; sourceTree = "<group>"; };
+		A6FAB30F1CC7541200617666 /* LiveTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveTitleView.m; sourceTree = "<group>"; };
+		A6FAB3111CC776AF00617666 /* LiveDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveDetailViewController.h; sourceTree = "<group>"; };
+		A6FAB3121CC776AF00617666 /* LiveDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveDetailViewController.m; sourceTree = "<group>"; };
+		A6FAB3141CC7785000617666 /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
+		A6FAB3151CC7785000617666 /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
+		A6FAB31C1CC7787900617666 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		A6FAB31D1CC7787900617666 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		A6FAB31E1CC7787900617666 /* VAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAppInfo.h; sourceTree = "<group>"; };
+		A6FAB31F1CC7787900617666 /* VAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAppInfo.m; sourceTree = "<group>"; };
+		A6FAB3211CC7787900617666 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		A6FAB3241CC7787900617666 /* VDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDefines.h; sourceTree = "<group>"; };
+		A6FAB3251CC7787900617666 /* Vitamio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vitamio.h; sourceTree = "<group>"; };
+		A6FAB3261CC7787900617666 /* VMediaExtracter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMediaExtracter.h; sourceTree = "<group>"; };
+		A6FAB3271CC7787900617666 /* VMediaExtracterDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMediaExtracterDef.h; sourceTree = "<group>"; };
+		A6FAB3281CC7787900617666 /* VMediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMediaPlayer.h; sourceTree = "<group>"; };
+		A6FAB3291CC7787900617666 /* VMediaPlayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMediaPlayerDelegate.h; sourceTree = "<group>"; };
+		A6FAB32A1CC7787900617666 /* VPlayerManageDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPlayerManageDef.h; sourceTree = "<group>"; };
+		A6FAB32B1CC7787900617666 /* VSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSingleton.h; sourceTree = "<group>"; };
+		A6FAB32C1CC7787900617666 /* libffmpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libffmpeg.a; sourceTree = "<group>"; };
+		A6FAB32D1CC7787900617666 /* libopenssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopenssl.a; sourceTree = "<group>"; };
+		A6FAB32E1CC7787900617666 /* libVitamio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libVitamio.a; sourceTree = "<group>"; };
+		A6FAB32F1CC7787900617666 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A6FAB3301CC7787900617666 /* VSegmentSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSegmentSlider.h; sourceTree = "<group>"; };
+		A6FAB3311CC7787900617666 /* VSegmentSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSegmentSlider.m; sourceTree = "<group>"; };
+		A6FAB33C1CC779B400617666 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A6FAB33E1CC779C700617666 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		A6FAB3401CC779E800617666 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		A6FAB3421CC77A0A00617666 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A6FAB3441CC77A3300617666 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		A6FAB3461CC77A5400617666 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A6FAB3491CC8860200617666 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A6FAB34B1CC8860900617666 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		A6FAB34D1CC89EC500617666 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6FAB34F1CC89ED700617666 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A6FAB3511CC89EE100617666 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A6FAB3531CC89FB200617666 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A6FAB3551CC89FC600617666 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A6FF36671CDB2D5900D46280 /* RemoteControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteControlViewController.h; sourceTree = "<group>"; };
+		A6FF36681CDB2D5900D46280 /* RemoteControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteControlViewController.m; sourceTree = "<group>"; };
+		A6FF366A1CE179E300D46280 /* LiveSupperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveSupperViewController.h; sourceTree = "<group>"; };
+		A6FF366B1CE179E300D46280 /* LiveSupperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveSupperViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6FAB2221CC5D03100617666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FAB3561CC89FC600617666 /* AVFoundation.framework in Frameworks */,
+				A6FAB3541CC89FB200617666 /* QuartzCore.framework in Frameworks */,
+				A6FAB3521CC89EE100617666 /* OpenGLES.framework in Frameworks */,
+				A6FAB3501CC89ED700617666 /* MediaPlayer.framework in Frameworks */,
+				A6FAB34E1CC89EC500617666 /* CoreGraphics.framework in Frameworks */,
+				A6FAB34C1CC8860900617666 /* VideoToolbox.framework in Frameworks */,
+				A6FAB34A1CC8860200617666 /* AudioToolbox.framework in Frameworks */,
+				A6FAB3471CC77A5400617666 /* CoreVideo.framework in Frameworks */,
+				A6FAB3451CC77A3300617666 /* libstdc++.tbd in Frameworks */,
+				A6FAB3431CC77A0A00617666 /* libz.tbd in Frameworks */,
+				A6FAB3411CC779E800617666 /* libbz2.tbd in Frameworks */,
+				A6FAB33F1CC779C700617666 /* libiconv.tbd in Frameworks */,
+				A6FAB33D1CC779B400617666 /* CoreMedia.framework in Frameworks */,
+				A6FAB3381CC7787900617666 /* libopenssl.a in Frameworks */,
+				A6FAB3371CC7787900617666 /* libffmpeg.a in Frameworks */,
+				A6FAB3391CC7787900617666 /* libVitamio.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FAB23E1CC5D03100617666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FAB2491CC5D03100617666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6FAB21C1CC5D03100617666 = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2271CC5D03100617666 /* GBoxTV */,
+				A6FAB2441CC5D03100617666 /* GBoxTVTests */,
+				A6FAB24F1CC5D03100617666 /* GBoxTVUITests */,
+				A6FAB2261CC5D03100617666 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6FAB2261CC5D03100617666 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2251CC5D03100617666 /* GBoxTV.app */,
+				A6FAB2411CC5D03100617666 /* GBoxTVTests.xctest */,
+				A6FAB24C1CC5D03100617666 /* GBoxTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6FAB2271CC5D03100617666 /* GBoxTV */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB3481CC77AAB00617666 /* 原库 */,
+				A6FAB2BF1CC608DB00617666 /* 通用 */,
+				A6FAB2B81CC6076D00617666 /* 第三方库 */,
+				A6FAB2891CC5D2C000617666 /* 点播 */,
+				A6FAB28A1CC5D2C000617666 /* 我的 */,
+				A6FAB28B1CC5D2C100617666 /* 历史播放记录 */,
+				A6FAB28C1CC5D2C100617666 /* 直播 */,
+				A6FAB28D1CC5D2C100617666 /* 主页面 */,
+				A6FAB28E1CC5D2C100617666 /* 登录 */,
+				A6FAB28F1CC5D2C100617666 /* 注册 */,
+				A6FAB22B1CC5D03100617666 /* AppDelegate.h */,
+				A6FAB22C1CC5D03100617666 /* AppDelegate.m */,
+				A6FAB2311CC5D03100617666 /* Main.storyboard */,
+				A6FAB2371CC5D03100617666 /* Assets.xcassets */,
+				A6FAB2391CC5D03100617666 /* LaunchScreen.storyboard */,
+				A6FAB2341CC5D03100617666 /* GBoxTV.xcdatamodeld */,
+				A6FAB2281CC5D03100617666 /* Supporting Files */,
+			);
+			path = GBoxTV;
+			sourceTree = "<group>";
+		};
+		A6FAB2281CC5D03100617666 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB23C1CC5D03100617666 /* Info.plist */,
+				A6FAB2291CC5D03100617666 /* main.m */,
+				A6FAB2B41CC5FE2400617666 /* GBoxTVHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6FAB2441CC5D03100617666 /* GBoxTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2451CC5D03100617666 /* GBoxTVTests.m */,
+				A6FAB2471CC5D03100617666 /* Info.plist */,
+			);
+			path = GBoxTVTests;
+			sourceTree = "<group>";
+		};
+		A6FAB24F1CC5D03100617666 /* GBoxTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2501CC5D03100617666 /* GBoxTVUITests.m */,
+				A6FAB2521CC5D03100617666 /* Info.plist */,
+			);
+			path = GBoxTVUITests;
+			sourceTree = "<group>";
+		};
+		A6FAB2891CC5D2C000617666 /* 点播 */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2A41CC5D31700617666 /* Model */,
+				A6FAB2A31CC5D31500617666 /* View */,
+				A6FAB2A21CC5D31300617666 /* Controller */,
+			);
+			path = "点播";
+			sourceTree = "<group>";
+		};
+		A6FAB28A1CC5D2C000617666 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2A11CC5D31100617666 /* Model */,
+				A6FAB2A01CC5D31000617666 /* View */,
+				A6FAB29F1CC5D30E00617666 /* Controller */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		A6FAB28B1CC5D2C100617666 /* 历史播放记录 */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB29E1CC5D30B00617666 /* Model */,
+				A6FAB29D1CC5D30900617666 /* View */,
+				A6FAB29C1CC5D30800617666 /* Controller */,
+			);
+			path = "历史播放记录";
+			sourceTree = "<group>";
+		};
+		A6FAB28C1CC5D2C100617666 /* 直播 */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB29B1CC5D30500617666 /* Model */,
+				A6FAB29A1CC5D30300617666 /* View */,
+				A6FAB2991CC5D30100617666 /* Controller */,
+			);
+			path = "直播";
+			sourceTree = "<group>";
+		};
+		A6FAB28D1CC5D2C100617666 /* 主页面 */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2981CC5D2FF00617666 /* Model */,
+				A6FAB2971CC5D2FD00617666 /* View */,
+				A6FAB2961CC5D2FC00617666 /* Controller */,
+			);
+			path = "主页面";
+			sourceTree = "<group>";
+		};
+		A6FAB28E1CC5D2C100617666 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2951CC5D2F900617666 /* Model */,
+				A6FAB2941CC5D2F700617666 /* View */,
+				A6FAB2931CC5D2F500617666 /* Controller */,
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		A6FAB28F1CC5D2C100617666 /* 注册 */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2921CC5D2E900617666 /* Model */,
+				A6FAB2911CC5D2DD00617666 /* View */,
+				A6FAB2901CC5D2C900617666 /* Controller */,
+			);
+			path = "注册";
+			sourceTree = "<group>";
+		};
+		A6FAB2901CC5D2C900617666 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2A81CC5D3C900617666 /* PhoneViewController.h */,
+				A6FAB2A91CC5D3C900617666 /* PhoneViewController.m */,
+				A6FAB2AB1CC5D3D900617666 /* VerifyCodeViewController.h */,
+				A6FAB2AC1CC5D3D900617666 /* VerifyCodeViewController.m */,
+				A6FAB2AE1CC5D3E500617666 /* PwdViewController.h */,
+				A6FAB2AF1CC5D3E500617666 /* PwdViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A6FAB2911CC5D2DD00617666 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A6FAB2921CC5D2E900617666 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A6FAB2931CC5D2F500617666 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2A51CC5D38200617666 /* LoginViewController.h */,
+				A6FAB2A61CC5D38200617666 /* LoginViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A6FAB2941CC5D2F700617666 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A6FAB2951CC5D2F900617666 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2B51CC5FFAD00617666 /* UserInfoModel.h */,
+				A6FAB2B61CC5FFAD00617666 /* UserInfoModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A6FAB2961CC5D2FC00617666 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2B11CC5D48D00617666 /* MainViewController.h */,
+				A6FAB2B21CC5D48D00617666 /* MainViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A6FAB2971CC5D2FD00617666 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A6FAB2981CC5D2FF00617666 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A6FAB2991CC5D30100617666 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2EF1CC60EEB00617666 /* LiveViewController.h */,
+				A6FAB2F01CC60EEB00617666 /* LiveViewController.m */,
+				A6FAB3111CC776AF00617666 /* LiveDetailViewController.h */,
+				A6FAB3121CC776AF00617666 /* LiveDetailViewController.m */,
+				A6FF366A1CE179E300D46280 /* LiveSupperViewController.h */,
+				A6FF366B1CE179E300D46280 /* LiveSupperViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A6FAB29A1CC5D30300617666 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2FE1CC727D400617666 /* LiveTableViewCell.h */,
+				A6FAB2FF1CC727D400617666 /* LiveTableViewCell.m */,
+				A6FAB3001CC727D400617666 /* LiveTableViewCell.xib */,
+				A6FAB30E1CC7541200617666 /* LiveTitleView.h */,
+				A6FAB30F1CC7541200617666 /* LiveTitleView.m */,
+				A6C196961CC9F4DD00A22AC2 /* BackWatchView.h */,
+				A6C196971CC9F4DD00A22AC2 /* BackWatchView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A6FAB29B1CC5D30500617666 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB3041CC72A7100617666 /* IptvScheduleInfoModel.m */,
+				A6FAB3051CC72A7100617666 /* IptvScheduleInfoModel.h */,
+				A6FAB3061CC72A7100617666 /* IptvChannelMode.m */,
+				A6FAB3071CC72A7100617666 /* IptvChannelMode.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A6FAB29C1CC5D30800617666 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2F21CC60F1D00617666 /* HistoricalPlayViewController.h */,
+				A6FAB2F31CC60F1D00617666 /* HistoricalPlayViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A6FAB29D1CC5D30900617666 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A6FAB29E1CC5D30B00617666 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A6FAB29F1CC5D30E00617666 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2F51CC60F2D00617666 /* MyViewController.h */,
+				A6FAB2F61CC60F2D00617666 /* MyViewController.m */,
+				A688675C1CD1FEFE007FAFEA /* AppointmentViewController.h */,
+				A688675D1CD1FEFE007FAFEA /* AppointmentViewController.m */,
+				A688675F1CD205D3007FAFEA /* EditPwdViewController.h */,
+				A68867601CD205D3007FAFEA /* EditPwdViewController.m */,
+				A68867621CD20BAB007FAFEA /* BindingViewController.h */,
+				A68867631CD20BAB007FAFEA /* BindingViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A6FAB2A01CC5D31000617666 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A6FAB2A11CC5D31100617666 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A6FAB2A21CC5D31300617666 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2F81CC60F4D00617666 /* OndemandViewController.h */,
+				A6FAB2F91CC60F4D00617666 /* OndemandViewController.m */,
+				A68867341CCF539D007FAFEA /* ProgramDetailViewController.h */,
+				A68867351CCF539D007FAFEA /* ProgramDetailViewController.m */,
+				A68867541CD1BF2A007FAFEA /* CategateDetailViewController.h */,
+				A68867551CD1BF2A007FAFEA /* CategateDetailViewController.m */,
+				A68867591CD1E70F007FAFEA /* SearchViewController.h */,
+				A688675A1CD1E70F007FAFEA /* SearchViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A6FAB2A31CC5D31500617666 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A68867371CCF68F6007FAFEA /* mEpisodeCollectionViewCell.xib */,
+				A68867321CCF48E9007FAFEA /* OndemandCollectionCell.xib */,
+				A688673C1CD05604007FAFEA /* MovieInfoView.h */,
+				A688673D1CD05604007FAFEA /* MovieInfoView.m */,
+				A688673F1CD0562D007FAFEA /* SeriesInfoView.h */,
+				A68867401CD0562D007FAFEA /* SeriesInfoView.m */,
+				A68867421CD05646007FAFEA /* ThreeCategateInfoView.h */,
+				A68867431CD05646007FAFEA /* ThreeCategateInfoView.m */,
+				A68867571CD1E121007FAFEA /* ThreeCategateTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A6FAB2A41CC5D31700617666 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A688674E1CD0B59F007FAFEA /* SeriesVideoModel.m */,
+				A688674F1CD0B59F007FAFEA /* SeriesVideoModel.h */,
+				A68867451CD05E0D007FAFEA /* ProgramInfo.m */,
+				A68867461CD05E0D007FAFEA /* ProgramInfo.h */,
+				A68867471CD05E0D007FAFEA /* SeriesInfoModel.m */,
+				A68867481CD05E0D007FAFEA /* SeriesInfoModel.h */,
+				A68867391CCF6FB5007FAFEA /* RelatedProgramModel.m */,
+				A688673A1CCF6FB5007FAFEA /* RelatedProgramModel.h */,
+				A688672C1CCF4129007FAFEA /* ProgramModel.h */,
+				A688672D1CCF4129007FAFEA /* ProgramModel.m */,
+				A688672E1CCF4129007FAFEA /* IptvCategoryModel.m */,
+				A688672F1CCF4129007FAFEA /* IptvCategoryModel.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A6FAB2B81CC6076D00617666 /* 第三方库 */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB3171CC7787900617666 /* Vitamio */,
+				A6FAB2E41CC60C9300617666 /* 3DES */,
+				A6FAB2C41CC60A3200617666 /* AFNetworking */,
+				A6FAB2B91CC607DE00617666 /* SVProgressHUD */,
+			);
+			path = "第三方库";
+			sourceTree = "<group>";
+		};
+		A6FAB2B91CC607DE00617666 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2BA1CC607DE00617666 /* SVProgressHUD.bundle */,
+				A6FAB2BB1CC607DE00617666 /* SVProgressHUD.h */,
+				A6FAB2BC1CC607DE00617666 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		A6FAB2BF1CC608DB00617666 /* 通用 */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2C21CC608E400617666 /* Model */,
+				A6FAB2C11CC608E200617666 /* View */,
+				A6FAB2C01CC608E000617666 /* Controller */,
+			);
+			path = "通用";
+			sourceTree = "<group>";
+		};
+		A6FAB2C01CC608E000617666 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2FB1CC6255800617666 /* CommonRootViewController.h */,
+				A6FAB2FC1CC6255800617666 /* CommonRootViewController.m */,
+				A68867651CD2F593007FAFEA /* MainSupperViewController.h */,
+				A68867661CD2F593007FAFEA /* MainSupperViewController.m */,
+				A6FF36671CDB2D5900D46280 /* RemoteControlViewController.h */,
+				A6FF36681CDB2D5900D46280 /* RemoteControlViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A6FAB2C11CC608E200617666 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB3141CC7785000617666 /* PlayerView.m */,
+				A6FAB3151CC7785000617666 /* PlayerView.h */,
+				A68867681CD8A063007FAFEA /* NoticeView.h */,
+				A68867691CD8A063007FAFEA /* NoticeView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A6FAB2C21CC608E400617666 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB3031CC72A0C00617666 /* 视频数据 */,
+				A6FAB2EC1CC60CD800617666 /* CommonBaseData.h */,
+				A6FAB2ED1CC60CD800617666 /* CommonBaseData.m */,
+				A6FAB2C31CC6095400617666 /* enmuHelper.h */,
+				A6FAB2E11CC60B0E00617666 /* CommonHelper.h */,
+				A6FAB2E21CC60B0E00617666 /* CommonHelper.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A6FAB2C41CC60A3200617666 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2C51CC60A3200617666 /* AFHTTPRequestOperation.h */,
+				A6FAB2C61CC60A3200617666 /* AFHTTPRequestOperation.m */,
+				A6FAB2C71CC60A3200617666 /* AFHTTPRequestOperationManager.h */,
+				A6FAB2C81CC60A3200617666 /* AFHTTPRequestOperationManager.m */,
+				A6FAB2C91CC60A3200617666 /* AFHTTPSessionManager.h */,
+				A6FAB2CA1CC60A3200617666 /* AFHTTPSessionManager.m */,
+				A6FAB2CB1CC60A3200617666 /* AFNetworking.h */,
+				A6FAB2CC1CC60A3200617666 /* AFNetworkReachabilityManager.h */,
+				A6FAB2CD1CC60A3200617666 /* AFNetworkReachabilityManager.m */,
+				A6FAB2CE1CC60A3200617666 /* AFSecurityPolicy.h */,
+				A6FAB2CF1CC60A3200617666 /* AFSecurityPolicy.m */,
+				A6FAB2D01CC60A3200617666 /* AFURLConnectionOperation.h */,
+				A6FAB2D11CC60A3200617666 /* AFURLConnectionOperation.m */,
+				A6FAB2D21CC60A3200617666 /* AFURLRequestSerialization.h */,
+				A6FAB2D31CC60A3200617666 /* AFURLRequestSerialization.m */,
+				A6FAB2D41CC60A3200617666 /* AFURLResponseSerialization.h */,
+				A6FAB2D51CC60A3200617666 /* AFURLResponseSerialization.m */,
+				A6FAB2D61CC60A3200617666 /* AFURLSessionManager.h */,
+				A6FAB2D71CC60A3200617666 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A6FAB2E41CC60C9300617666 /* 3DES */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB2E51CC60C9300617666 /* GTMBase64.h */,
+				A6FAB2E61CC60C9300617666 /* GTMBase64.m */,
+				A6FAB2E71CC60C9300617666 /* GTMDefines.h */,
+				A6FAB2E81CC60C9300617666 /* NSString+ThreeDES.h */,
+				A6FAB2E91CC60C9300617666 /* NSString+ThreeDES.m */,
+			);
+			path = 3DES;
+			sourceTree = "<group>";
+		};
+		A6FAB3031CC72A0C00617666 /* 视频数据 */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB30A1CC72A9700617666 /* BaseModel.h */,
+				A6FAB30B1CC72A9700617666 /* BaseModel.m */,
+			);
+			name = "视频数据";
+			sourceTree = "<group>";
+		};
+		A6FAB3171CC7787900617666 /* Vitamio */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB31C1CC7787900617666 /* Utilities.h */,
+				A6FAB31D1CC7787900617666 /* Utilities.m */,
+				A6FAB31E1CC7787900617666 /* VAppInfo.h */,
+				A6FAB31F1CC7787900617666 /* VAppInfo.m */,
+				A6FAB3201CC7787900617666 /* Vitamio */,
+				A6FAB3301CC7787900617666 /* VSegmentSlider.h */,
+				A6FAB3311CC7787900617666 /* VSegmentSlider.m */,
+			);
+			path = Vitamio;
+			sourceTree = "<group>";
+		};
+		A6FAB3201CC7787900617666 /* Vitamio */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB3211CC7787900617666 /* CHANGELOG.md */,
+				A6FAB3221CC7787900617666 /* include */,
+				A6FAB32C1CC7787900617666 /* libffmpeg.a */,
+				A6FAB32D1CC7787900617666 /* libopenssl.a */,
+				A6FAB32E1CC7787900617666 /* libVitamio.a */,
+				A6FAB32F1CC7787900617666 /* LICENSE */,
+			);
+			path = Vitamio;
+			sourceTree = "<group>";
+		};
+		A6FAB3221CC7787900617666 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB3231CC7787900617666 /* Vitamio */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A6FAB3231CC7787900617666 /* Vitamio */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB3241CC7787900617666 /* VDefines.h */,
+				A6FAB3251CC7787900617666 /* Vitamio.h */,
+				A6FAB3261CC7787900617666 /* VMediaExtracter.h */,
+				A6FAB3271CC7787900617666 /* VMediaExtracterDef.h */,
+				A6FAB3281CC7787900617666 /* VMediaPlayer.h */,
+				A6FAB3291CC7787900617666 /* VMediaPlayerDelegate.h */,
+				A6FAB32A1CC7787900617666 /* VPlayerManageDef.h */,
+				A6FAB32B1CC7787900617666 /* VSingleton.h */,
+			);
+			path = Vitamio;
+			sourceTree = "<group>";
+		};
+		A6FAB3481CC77AAB00617666 /* 原库 */ = {
+			isa = PBXGroup;
+			children = (
+				A6FAB3551CC89FC600617666 /* AVFoundation.framework */,
+				A6FAB3531CC89FB200617666 /* QuartzCore.framework */,
+				A6FAB3511CC89EE100617666 /* OpenGLES.framework */,
+				A6FAB34F1CC89ED700617666 /* MediaPlayer.framework */,
+				A6FAB34D1CC89EC500617666 /* CoreGraphics.framework */,
+				A6FAB34B1CC8860900617666 /* VideoToolbox.framework */,
+				A6FAB3491CC8860200617666 /* AudioToolbox.framework */,
+				A6FAB3461CC77A5400617666 /* CoreVideo.framework */,
+				A6FAB3441CC77A3300617666 /* libstdc++.tbd */,
+				A6FAB3421CC77A0A00617666 /* libz.tbd */,
+				A6FAB3401CC779E800617666 /* libbz2.tbd */,
+				A6FAB33E1CC779C700617666 /* libiconv.tbd */,
+				A6FAB33C1CC779B400617666 /* CoreMedia.framework */,
+			);
+			name = "原库";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6FAB2241CC5D03100617666 /* GBoxTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6FAB2551CC5D03100617666 /* Build configuration list for PBXNativeTarget "GBoxTV" */;
+			buildPhases = (
+				A6FAB2211CC5D03100617666 /* Sources */,
+				A6FAB2221CC5D03100617666 /* Frameworks */,
+				A6FAB2231CC5D03100617666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GBoxTV;
+			productName = GBoxTV;
+			productReference = A6FAB2251CC5D03100617666 /* GBoxTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6FAB2401CC5D03100617666 /* GBoxTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6FAB2581CC5D03100617666 /* Build configuration list for PBXNativeTarget "GBoxTVTests" */;
+			buildPhases = (
+				A6FAB23D1CC5D03100617666 /* Sources */,
+				A6FAB23E1CC5D03100617666 /* Frameworks */,
+				A6FAB23F1CC5D03100617666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6FAB2431CC5D03100617666 /* PBXTargetDependency */,
+			);
+			name = GBoxTVTests;
+			productName = GBoxTVTests;
+			productReference = A6FAB2411CC5D03100617666 /* GBoxTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6FAB24B1CC5D03100617666 /* GBoxTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6FAB25B1CC5D03100617666 /* Build configuration list for PBXNativeTarget "GBoxTVUITests" */;
+			buildPhases = (
+				A6FAB2481CC5D03100617666 /* Sources */,
+				A6FAB2491CC5D03100617666 /* Frameworks */,
+				A6FAB24A1CC5D03100617666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6FAB24E1CC5D03100617666 /* PBXTargetDependency */,
+			);
+			name = GBoxTVUITests;
+			productName = GBoxTVUITests;
+			productReference = A6FAB24C1CC5D03100617666 /* GBoxTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6FAB21D1CC5D03100617666 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = PC_201310113421;
+				TargetAttributes = {
+					A6FAB2241CC5D03100617666 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 92S2DMY739;
+					};
+					A6FAB2401CC5D03100617666 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A6FAB2241CC5D03100617666;
+					};
+					A6FAB24B1CC5D03100617666 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A6FAB2241CC5D03100617666;
+					};
+				};
+			};
+			buildConfigurationList = A6FAB2201CC5D03100617666 /* Build configuration list for PBXProject "GBoxTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6FAB21C1CC5D03100617666;
+			productRefGroup = A6FAB2261CC5D03100617666 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6FAB2241CC5D03100617666 /* GBoxTV */,
+				A6FAB2401CC5D03100617666 /* GBoxTVTests */,
+				A6FAB24B1CC5D03100617666 /* GBoxTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6FAB2231CC5D03100617666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FAB23B1CC5D03100617666 /* LaunchScreen.storyboard in Resources */,
+				A6FAB3021CC727D400617666 /* LiveTableViewCell.xib in Resources */,
+				A6FAB33A1CC7787900617666 /* LICENSE in Resources */,
+				A6FAB2381CC5D03100617666 /* Assets.xcassets in Resources */,
+				A68867381CCF68F6007FAFEA /* mEpisodeCollectionViewCell.xib in Resources */,
+				A6FAB2331CC5D03100617666 /* Main.storyboard in Resources */,
+				A6FAB2BD1CC607DE00617666 /* SVProgressHUD.bundle in Resources */,
+				A68867581CD1E121007FAFEA /* ThreeCategateTableViewCell.xib in Resources */,
+				A68867331CCF48E9007FAFEA /* OndemandCollectionCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FAB23F1CC5D03100617666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FAB24A1CC5D03100617666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6FAB2211CC5D03100617666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FAB3011CC727D400617666 /* LiveTableViewCell.m in Sources */,
+				A6FAB2DD1CC60A3300617666 /* AFURLConnectionOperation.m in Sources */,
+				A6FAB2EE1CC60CD800617666 /* CommonBaseData.m in Sources */,
+				A6FAB2B01CC5D3E500617666 /* PwdViewController.m in Sources */,
+				A6FAB2DC1CC60A3300617666 /* AFSecurityPolicy.m in Sources */,
+				A6FAB2361CC5D03100617666 /* GBoxTV.xcdatamodeld in Sources */,
+				A6FAB2D91CC60A3300617666 /* AFHTTPRequestOperationManager.m in Sources */,
+				A6FAB2F11CC60EEB00617666 /* LiveViewController.m in Sources */,
+				A6FAB2B71CC5FFAD00617666 /* UserInfoModel.m in Sources */,
+				A6FAB22D1CC5D03100617666 /* AppDelegate.m in Sources */,
+				A6FAB3101CC7541200617666 /* LiveTitleView.m in Sources */,
+				A6FAB2B31CC5D48D00617666 /* MainViewController.m in Sources */,
+				A6FAB3081CC72A7100617666 /* IptvScheduleInfoModel.m in Sources */,
+				A6FAB2AA1CC5D3C900617666 /* PhoneViewController.m in Sources */,
+				A688675B1CD1E70F007FAFEA /* SearchViewController.m in Sources */,
+				A68867641CD20BAB007FAFEA /* BindingViewController.m in Sources */,
+				A688673B1CCF6FB5007FAFEA /* RelatedProgramModel.m in Sources */,
+				A6FAB2AD1CC5D3D900617666 /* VerifyCodeViewController.m in Sources */,
+				A6FAB2F71CC60F2D00617666 /* MyViewController.m in Sources */,
+				A68867671CD2F593007FAFEA /* MainSupperViewController.m in Sources */,
+				A6FAB2E01CC60A3300617666 /* AFURLSessionManager.m in Sources */,
+				A688675E1CD1FEFE007FAFEA /* AppointmentViewController.m in Sources */,
+				A6C196981CC9F4DD00A22AC2 /* BackWatchView.m in Sources */,
+				A6FAB2DF1CC60A3300617666 /* AFURLResponseSerialization.m in Sources */,
+				A6FAB2BE1CC607DE00617666 /* SVProgressHUD.m in Sources */,
+				A6FAB30C1CC72A9700617666 /* BaseModel.m in Sources */,
+				A6FF366C1CE179E300D46280 /* LiveSupperViewController.m in Sources */,
+				A6FAB2F41CC60F1D00617666 /* HistoricalPlayViewController.m in Sources */,
+				A688674A1CD05E0D007FAFEA /* SeriesInfoModel.m in Sources */,
+				A6FF36691CDB2D5900D46280 /* RemoteControlViewController.m in Sources */,
+				A6FAB3361CC7787900617666 /* CHANGELOG.md in Sources */,
+				A68867561CD1BF2A007FAFEA /* CategateDetailViewController.m in Sources */,
+				A688676A1CD8A063007FAFEA /* NoticeView.m in Sources */,
+				A6FAB33B1CC7787900617666 /* VSegmentSlider.m in Sources */,
+				A6FAB3091CC72A7100617666 /* IptvChannelMode.m in Sources */,
+				A6FAB2FD1CC6255800617666 /* CommonRootViewController.m in Sources */,
+				A68867441CD05646007FAFEA /* ThreeCategateInfoView.m in Sources */,
+				A6FAB2EA1CC60C9300617666 /* GTMBase64.m in Sources */,
+				A688673E1CD05604007FAFEA /* MovieInfoView.m in Sources */,
+				A6FAB22A1CC5D03100617666 /* main.m in Sources */,
+				A6FAB3131CC776AF00617666 /* LiveDetailViewController.m in Sources */,
+				A6FAB2E31CC60B0E00617666 /* CommonHelper.m in Sources */,
+				A6FAB3341CC7787900617666 /* Utilities.m in Sources */,
+				A68867611CD205D3007FAFEA /* EditPwdViewController.m in Sources */,
+				A6FAB2DE1CC60A3300617666 /* AFURLRequestSerialization.m in Sources */,
+				A68867501CD0B59F007FAFEA /* SeriesVideoModel.m in Sources */,
+				A6FAB2DB1CC60A3300617666 /* AFNetworkReachabilityManager.m in Sources */,
+				A6FAB3161CC7785000617666 /* PlayerView.m in Sources */,
+				A6FAB2A71CC5D38200617666 /* LoginViewController.m in Sources */,
+				A6FAB2D81CC60A3200617666 /* AFHTTPRequestOperation.m in Sources */,
+				A6FAB2FA1CC60F4D00617666 /* OndemandViewController.m in Sources */,
+				A6FAB2DA1CC60A3300617666 /* AFHTTPSessionManager.m in Sources */,
+				A6FAB3351CC7787900617666 /* VAppInfo.m in Sources */,
+				A6FAB2EB1CC60C9300617666 /* NSString+ThreeDES.m in Sources */,
+				A68867311CCF4129007FAFEA /* IptvCategoryModel.m in Sources */,
+				A68867491CD05E0D007FAFEA /* ProgramInfo.m in Sources */,
+				A68867361CCF539D007FAFEA /* ProgramDetailViewController.m in Sources */,
+				A68867301CCF4129007FAFEA /* ProgramModel.m in Sources */,
+				A68867411CD0562D007FAFEA /* SeriesInfoView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FAB23D1CC5D03100617666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FAB2461CC5D03100617666 /* GBoxTVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FAB2481CC5D03100617666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FAB2511CC5D03100617666 /* GBoxTVUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6FAB2431CC5D03100617666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6FAB2241CC5D03100617666 /* GBoxTV */;
+			targetProxy = A6FAB2421CC5D03100617666 /* PBXContainerItemProxy */;
+		};
+		A6FAB24E1CC5D03100617666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6FAB2241CC5D03100617666 /* GBoxTV */;
+			targetProxy = A6FAB24D1CC5D03100617666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6FAB2311CC5D03100617666 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6FAB2321CC5D03100617666 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6FAB2391CC5D03100617666 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6FAB23A1CC5D03100617666 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6FAB2531CC5D03100617666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6FAB2541CC5D03100617666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6FAB2561CC5D03100617666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = GBoxTV/GBoxTVHeader.pch;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/GBoxTV/通用\"";
+				INFOPLIST_FILE = GBoxTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GBoxTV/第三方库/Vitamio/Vitamio",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gf.GBoxTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A6FAB2571CC5D03100617666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = GBoxTV/GBoxTVHeader.pch;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/GBoxTV/通用\"";
+				INFOPLIST_FILE = GBoxTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GBoxTV/第三方库/Vitamio/Vitamio",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gf.GBoxTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A6FAB2591CC5D03100617666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GBoxTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gf.GBoxTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GBoxTV.app/GBoxTV";
+			};
+			name = Debug;
+		};
+		A6FAB25A1CC5D03100617666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GBoxTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gf.GBoxTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GBoxTV.app/GBoxTV";
+			};
+			name = Release;
+		};
+		A6FAB25C1CC5D03100617666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GBoxTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gf.GBoxTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GBoxTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A6FAB25D1CC5D03100617666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GBoxTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gf.GBoxTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GBoxTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6FAB2201CC5D03100617666 /* Build configuration list for PBXProject "GBoxTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FAB2531CC5D03100617666 /* Debug */,
+				A6FAB2541CC5D03100617666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6FAB2551CC5D03100617666 /* Build configuration list for PBXNativeTarget "GBoxTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FAB2561CC5D03100617666 /* Debug */,
+				A6FAB2571CC5D03100617666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6FAB2581CC5D03100617666 /* Build configuration list for PBXNativeTarget "GBoxTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FAB2591CC5D03100617666 /* Debug */,
+				A6FAB25A1CC5D03100617666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6FAB25B1CC5D03100617666 /* Build configuration list for PBXNativeTarget "GBoxTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FAB25C1CC5D03100617666 /* Debug */,
+				A6FAB25D1CC5D03100617666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A6FAB2341CC5D03100617666 /* GBoxTV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A6FAB2351CC5D03100617666 /* GBoxTV.xcdatamodel */,
+			);
+			currentVersion = A6FAB2351CC5D03100617666 /* GBoxTV.xcdatamodel */;
+			path = GBoxTV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A6FAB21D1CC5D03100617666 /* Project object */;
+}

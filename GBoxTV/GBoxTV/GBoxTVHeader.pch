@@ -1,0 +1,69 @@
+//
+//  GBoxTVHeader.pch
+//  GBoxTV
+//
+//  Created by PC_201310113421 on 16/4/19.
+//  Copyright © 2016年 PC_201310113421. All rights reserved.
+//
+
+#ifndef GBoxTVHeader_pch
+#define GBoxTVHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* GBoxTVHeader_pch */
+
+
+
+//方法宏定义
+
+#define DE_Action_GetCategorys @"GetCategorys"  //获取栏目列表
+#define DE_Action_GetChannels @"GetChannels"  //获取频道列表
+#define DE_Action_GetSchedules @"GetSchedules" //获取回看列表
+#define DE_Action_GetSubTypeOrContent @"GetSubTypeOrContent"  //是否有子节目
+#define DE_Action_GetPrograms @"GetPrograms" //获取电影列表
+#define DE_Action_GetProgramInfo @"GetProgramInfo"//获取电影信息
+#define DE_Action_GetRelatedPrograms @"GetRelatedPrograms"  //获取关联节目
+#define DE_Action_IsProgram @"IsProgram" //是电影还是电视剧
+#define DE_Action_SearchPrograms @"SearchPrograms"  //搜索影片
+#define DE_Action_GetSeriesInfo @"GetSeriesInfo"  // 获取电视剧信息
+#define DE_Action_GetSeriesVideos @"GetSeriesVideos"   //获取分集列表
+#define DE_Action_AddFavorite @"AddFavorite"//收藏影片
+#define DE_Action_DelFavorite @"DelFavorite"//删除影片
+#define DE_Action_IsFavorite @"IsFavorite"//是否收藏
+#define DE_Action_GetFavorite @"GetFavorite"//获取收藏
+
+#pragma mark-保存的值
+
+#define DE_Save_userInfo @"userInfo"
+#define DE_Save_isLogin @"isLogin"
+#define DE_Save_movieRootCategory @"movieRootCategory"
+#define DE_Save_isFirstLoad @"isFirstLoad"
+#define DE_Save_TerminalFlag @"TerminalFlag"
+
+#define DE_Save_requestOnlinelive @"requestOnlinelive"
+#define DE_Save_requestOndemand @"requestOndemand"
+
+#define DE_Save_liveData @"livedata"
+
+#define DE_loginhost @"123.147.112.16"
+#define DE_loginport @"8080"
+
+#define DE_mainhost @"123.147.112.72"
+#define DE_mainUrl @"http://123.147.112.72/jsoncms"
+
+#define DE_FONT_16  [UIFont systemFontOfSize:16]
+#define DE_FONT_BOLD_16 [UIFont fontWithName:@"Helvetica-Bold" size:16]
+#define DE_FONT_14  [UIFont systemFontOfSize:14]
+
+#define DEFAULTVIEWBACKGROUNDCOLOR [UIColor colorWithRed:0xEC/255.0 green:0xEC/255.0 blue:0xEC/255.0 alpha:0xFF/255.0]
+#define DEFAULTBLUECOLOR  [UIColor colorWithRed:0x18/255.0 green:0xBF/255.0 blue:0xFF/255.0 alpha:0xFF/255.0]
+#define DEFAULTTEXTBlackColor [UIColor colorWithRed:35.0/255.0 green:35.0/255.0 blue:35.0/255.0 alpha:1]
+
+#define ondemand_width_heigth 4/3
+#define widthflex_iphone5s 10
+#define heightfex_iphone5s 10
+#define ondemand_heigth 150
+#define ondemand_width 93
+#define base_device_width 320//基本设备宽度
